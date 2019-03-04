@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore-tests\\proxy-dotnetcore-tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore-tests\\proxy-dotnetcore-tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore-tests\\proxy-dotnetcore-tests.csproj",
+        "projectName": "proxy-dotnetcore-tests",
+        "projectPath": "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore-tests\\proxy-dotnetcore-tests.csproj",
+        "packagesPath": "C:\\Users\\Gielow\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore-tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gielow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore\\proxy-dotnetcore.csproj": {
+                "projectPath": "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore\\proxy-dotnetcore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore\\proxy-dotnetcore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore\\proxy-dotnetcore.csproj",
+        "projectName": "proxy-dotnetcore",
+        "projectPath": "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore\\proxy-dotnetcore.csproj",
+        "packagesPath": "C:\\Users\\Gielow\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gielow\\source\\repos\\proxy-app\\proxy-dotnetcore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gielow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
