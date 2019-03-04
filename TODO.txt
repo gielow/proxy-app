@@ -1,0 +1,4 @@
+- Add tests for POST operations
+- Add tests for Relay class
+- Verify "Accept-Encoding" header
+- Remove/clean up test cases for basic server 
