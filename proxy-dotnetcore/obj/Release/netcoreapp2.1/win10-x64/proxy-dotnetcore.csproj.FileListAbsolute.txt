@@ -1,0 +1,14 @@
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\bin\Release\netcoreapp2.1\win10-x64\hostpolicy.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\bin\Release\netcoreapp2.1\win10-x64\hostfxr.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\bin\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.exe
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\bin\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.deps.json
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\bin\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.runtimeconfig.json
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\bin\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.runtimeconfig.dev.json
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\bin\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\bin\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.pdb
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.csprojAssemblyReference.cache
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.csproj.CoreCompileInputs.cache
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.AssemblyInfoInputs.cache
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.AssemblyInfo.cs
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Release\netcoreapp2.1\win10-x64\proxy-dotnetcore.pdb

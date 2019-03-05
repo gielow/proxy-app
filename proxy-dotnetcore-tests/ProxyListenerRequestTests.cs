@@ -1,7 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Newtonsoft.Json;
 using proxy_dotnetcore;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;

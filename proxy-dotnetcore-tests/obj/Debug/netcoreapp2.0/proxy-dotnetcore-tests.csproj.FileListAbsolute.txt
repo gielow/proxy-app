@@ -1,0 +1,17 @@
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\proxy-dotnetcore-tests.deps.json
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\proxy-dotnetcore-tests.runtimeconfig.json
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\proxy-dotnetcore-tests.runtimeconfig.dev.json
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\proxy-dotnetcore-tests.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\proxy-dotnetcore-tests.pdb
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\proxy-dotnetcore.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\bin\Debug\netcoreapp2.0\proxy-dotnetcore.pdb
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\obj\Debug\netcoreapp2.0\proxy-dotnetcore-tests.csprojAssemblyReference.cache
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\obj\Debug\netcoreapp2.0\proxy-dotnetcore-tests.csproj.CoreCompileInputs.cache
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\obj\Debug\netcoreapp2.0\proxy-dotnetcore-tests.AssemblyInfoInputs.cache
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\obj\Debug\netcoreapp2.0\proxy-dotnetcore-tests.AssemblyInfo.cs
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\obj\Debug\netcoreapp2.0\proxy-dotnetcore-tests.csproj.CopyComplete
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\obj\Debug\netcoreapp2.0\proxy-dotnetcore-tests.dll
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore-tests\obj\Debug\netcoreapp2.0\proxy-dotnetcore-tests.pdb

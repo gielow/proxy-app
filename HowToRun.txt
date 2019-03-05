@@ -1,0 +1,6 @@
+I published this application to run for both windows 10 and ubuntu 18.
+
+The application for each platform is at:
+
+.\proxy-dotnetcore\publish\ubuntu.18.04-x64
+.\proxy-dotnetcore\publish\win10-x64
