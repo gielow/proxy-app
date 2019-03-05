@@ -25,7 +25,7 @@ namespace proxy_dotnetcore_tests
             });
         }
 
-        private static readonly HttpClient client = new HttpClient();
+        
 
         [TestMethod]
         public async Task ProxyListenetGetTest()
@@ -37,40 +37,30 @@ namespace proxy_dotnetcore_tests
 
             var response = await relayRequest.GetResponseAsync();
             var stream = response.GetResponseStream();
-
             var reader = new StreamReader(stream);
-            string content = reader.ReadToEnd();
+            var content = reader.ReadToEnd();
 
             Assert.IsTrue(content.Contains("\"User-Agent\": \"IntegrationTestUserAgent\""));
         }
 
-        public async void ProxyListenerPostTest()
+        [TestMethod]
+        public async Task ProxyListenerPostTest()
         {
             var requestUrl = $"{proxyUrl}http://httpbin.org/post";
-
-            var relayRequest = (HttpWebRequest)WebRequest.Create(requestUrl);
-            relayRequest.UserAgent = "IntegrationTestUserAgent";
-            relayRequest.Method = "POST";
-
-            var response = await relayRequest.GetResponseAsync();
-            var stream = response.GetResponseStream();
-
-            var reader = new StreamReader(stream);
-            string content = reader.ReadToEnd();
-
-            Assert.IsTrue(content.Contains("\"User-Agent\": \"IntegrationTestUserAgent\""));
-
+            
             var values = new Dictionary<string, string>
             {
-               { "thing1", "hello" },
-               { "thing2", "world" }
+               { "asdf", "blah" },
             };
 
-            //var content = new FormUrlEncodedContent(values);
-            //
-            //var response = await client.PostAsync("http://www.example.com/recepticle.aspx", content);
-            //
-            //var responseString = await response.Content.ReadAsStringAsync();
+            var content = new FormUrlEncodedContent(values);
+            HttpClient client = new HttpClient();
+            var response = await client.PostAsync(requestUrl, content);
+            
+            var responseString = await response.Content.ReadAsStringAsync();
+
+            Assert.IsNotNull(responseString);
+            Assert.IsTrue(responseString.Contains("\"asdf\": \"blah\""));
         }
     }
 }

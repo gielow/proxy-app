@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Linq;
 using System.Net;
-using System.Text;
 
 namespace proxy_dotnetcore
 {
@@ -22,21 +21,25 @@ namespace proxy_dotnetcore
 
             var relayRequest = (HttpWebRequest)WebRequest.Create(requestUrl);
             relayRequest.KeepAlive = false;
-            relayRequest.Accept = string.Join(',', Request.AcceptTypes);
+
+            if (Request.AcceptTypes?.FirstOrDefault() != null)
+            {
+                relayRequest.Accept = string.Join(",", Request.AcceptTypes);
+            }
+
             relayRequest.ContentType = Request.ContentType;
             relayRequest.Method = Request.HttpMethod;
             relayRequest.UserAgent = Request.UserAgent;
 
-            relayRequest.Headers["Accept-Encoding"] = Request.Headers["Accept-Encoding"];
-
-            CopyHeaders(relayRequest.Headers, Request.Headers);
+            // POST form data
+            if (Request.HasEntityBody)
+            {
+                var relayStream = relayRequest.GetRequestStream();
+                Request.InputStream.CopyTo(relayStream);
+                relayStream.Close();
+            }
 
             return relayRequest.GetResponse();
-        }
-
-        private void CopyHeaders(WebHeaderCollection destinationHeader, System.Collections.Specialized.NameValueCollection originHeader)
-        {
-
         }
 
         private string ExtractProxyUrl()

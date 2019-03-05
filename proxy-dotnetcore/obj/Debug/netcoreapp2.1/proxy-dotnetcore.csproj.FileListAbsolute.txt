@@ -8,3 +8,4 @@ C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Debug\netcoreapp2.1\
 C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Debug\netcoreapp2.1\proxy-dotnetcore.AssemblyInfo.cs
 C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Debug\netcoreapp2.1\proxy-dotnetcore.dll
 C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Debug\netcoreapp2.1\proxy-dotnetcore.pdb
+C:\Users\Gielow\source\repos\proxy-app\proxy-dotnetcore\obj\Debug\netcoreapp2.1\proxy-dotnetcore.csprojAssemblyReference.cache
